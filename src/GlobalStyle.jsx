@@ -1,7 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap");
+  @font-face {
+  font-family: "Alegreya", serif;
+  src: url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap");
+}
 
   * {
     margin: 0;

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { GlobalStyle } from "../GlobalStyle";
+import { Header } from "../components/index";
 
 export default function Home() {
 	return (
@@ -11,6 +12,7 @@ export default function Home() {
 			</Head>
 			<main>
 				<GlobalStyle />
+				<Header />
 			</main>
 		</>
 	);
