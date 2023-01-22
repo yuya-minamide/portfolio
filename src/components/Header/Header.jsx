@@ -1,14 +1,15 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import styled from "styled-components";
 import { HOME, ABOUT, PORTFOLIO, SKILLS, CONTACT, GITHUB, LINKEDIN, INSTAGRAM, FACEBOOK } from "../../constants";
-import SocialIcon from "../../common/SocialIcon/SocialIcon";
 import { BsGithub, BsLinkedin, BsInstagram, BsFacebook } from "react-icons/bs";
+import { BurgerMenu, SocialIcon } from "../index";
 
 const HeaderContainer = styled.header`
 	width: 100%;
 `;
 
-const NavBar = styled.nav`
+const NavBar = styled.div`
 	position: fixed;
 	z-index: 10;
 	top: 0;
@@ -55,7 +56,7 @@ const NavContent = styled.li`
 	padding: 5px 20px 10px 0;
 `;
 
-const NavContentLink = styled.a`
+const NavContentLink = styled(Link)`
 	font-size: 1.5rem;
 `;
 
@@ -68,48 +69,9 @@ const HeaderSocials = styled.div`
 	}
 `;
 
-const HeaderSocialsLink = styled.a`
+const HeaderSocialsLink = styled(Link)`
 	@media screen and (max-width: 960px) {
 		padding-right: 20px;
-	}
-`;
-
-const BurgerMenu = styled.div`
-	@media screen and (max-width: 960px) {
-		height: 100%;
-		width: 3rem;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: space-between;
-		cursor: pointer;
-		padding: 1rem;
-
-		div {
-			width: 3.5rem;
-			height: 0.5rem;
-			background-color: #fff;
-			opacity: 0.6;
-			border-radius: 0.3rem;
-
-			&:nth-child(1) {
-				transform: ${({ isMenuClicked }) =>
-					isMenuClicked ? "rotate(45deg) translate(0.75em, 1.25em)" : "rotate(0) translate(0)"};
-				transition: ${({ isMenuClicked }) =>
-					isMenuClicked ? "ease-out 0.5s" : "cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;"};
-			}
-			&:nth-child(2) {
-				transform: ${({ isMenuClicked }) => (isMenuClicked ? "scale(0.1)" : "rotate(0) translate(0)")};
-				transition: ${({ isMenuClicked }) =>
-					isMenuClicked ? "ease-out 0.5s" : "cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;"};
-			}
-			&:nth-child(3) {
-				transform: ${({ isMenuClicked }) =>
-					isMenuClicked ? "rotate(135deg) translate(-0.5em, 1em)" : "rotate(0) translate(0)"};
-				transition: ${({ isMenuClicked }) =>
-					isMenuClicked ? "ease-out 0.5s" : "cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;"};
-			}
-		}
 	}
 `;
 
@@ -119,11 +81,7 @@ const Header = () => {
 	return (
 		<HeaderContainer>
 			<NavBar>
-				<BurgerMenu isMenuClicked={isMenuClicked} onClick={() => setIsMenuClicked(!isMenuClicked)}>
-					<div />
-					<div />
-					<div />
-				</BurgerMenu>
+				<BurgerMenu isMenuClicked={isMenuClicked} onClick={() => setIsMenuClicked(!isMenuClicked)} />
 
 				<HeaderSocials>
 					<SocialIcon url={GITHUB}>
@@ -151,19 +109,19 @@ const Header = () => {
 				<Menu isMenuClicked={isMenuClicked}>
 					<NavMenu>
 						<NavContent>
-							<NavContentLink href="#">{HOME}</NavContentLink>
+							<NavContentLink href="/">{HOME}</NavContentLink>
 						</NavContent>
 						<NavContent>
-							<NavContentLink href="#about">{ABOUT}</NavContentLink>
+							<NavContentLink href="/">{ABOUT}</NavContentLink>
 						</NavContent>
 						<NavContent>
-							<NavContentLink href="#">{PORTFOLIO}</NavContentLink>
+							<NavContentLink href="/">{PORTFOLIO}</NavContentLink>
 						</NavContent>
 						<NavContent>
-							<NavContentLink href="#">{SKILLS}</NavContentLink>
+							<NavContentLink href="/">{SKILLS}</NavContentLink>
 						</NavContent>
 						<NavContent>
-							<NavContentLink href="#">{CONTACT}</NavContentLink>
+							<NavContentLink href="/">{CONTACT}</NavContentLink>
 						</NavContent>
 					</NavMenu>
 				</Menu>
