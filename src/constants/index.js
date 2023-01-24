@@ -1,11 +1,7 @@
 /**
  * Header
  */
-export const HOME = "Home";
-export const ABOUT = "About";
-export const PORTFOLIO = "Portfolio";
-export const SKILLS = "Skills";
-export const CONTACT = "Contact";
+export const NAV_MENU_CONTENTS = ["Home", "About", "Portfolio", "Skills", "Contact"];
 
 /**
  * SocialIcon URL

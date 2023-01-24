@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styled from "styled-components";
-import { HOME, ABOUT, PORTFOLIO, SKILLS, CONTACT } from "../../constants/index";
+import { NAV_MENU_CONTENTS } from "../../constants/index";
 
 const NavContent = styled.li`
 	padding: 5px 20px 10px 0;
@@ -10,11 +10,10 @@ const NavContentLink = styled(Link)`
 	font-size: 1.5rem;
 `;
 
-const NavContentsArr = [HOME, ABOUT, PORTFOLIO, SKILLS, CONTACT];
 export function NavContents() {
-	return NavContentsArr.map((content) => (
+	return NAV_MENU_CONTENTS.map((content) => (
 		<NavContent>
-			<NavContentLink href="/">{content}</NavContentLink>
+			<NavContentLink href={`#${content.toLowerCase()}`}>{content}</NavContentLink>
 		</NavContent>
 	));
 }
