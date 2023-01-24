@@ -1,9 +1,6 @@
-import Link from "next/link";
 import React, { useState } from "react";
 import styled from "styled-components";
-import { HOME, ABOUT, PORTFOLIO, SKILLS, CONTACT, GITHUB, LINKEDIN, INSTAGRAM, FACEBOOK } from "../../constants";
-import { BsGithub, BsLinkedin, BsInstagram, BsFacebook } from "react-icons/bs";
-import { BurgerMenu, SocialIcon } from "../index";
+import { BurgerMenu, SocialIcon, NavContents } from "../index";
 
 const HeaderContainer = styled.header`
 	width: 100%;
@@ -25,7 +22,7 @@ const NavBar = styled.div`
 	}
 `;
 
-const Menu = styled.div`
+const NavMenuContainer = styled.div`
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -52,26 +49,12 @@ const NavMenu = styled.ul`
 	}
 `;
 
-const NavContent = styled.li`
-	padding: 5px 20px 10px 0;
-`;
-
-const NavContentLink = styled(Link)`
-	font-size: 1.5rem;
-`;
-
 const HeaderSocials = styled.div`
 	display: none;
 
 	@media screen and (max-width: 960px) {
 		display: flex;
 		align-items: center;
-	}
-`;
-
-const HeaderSocialsLink = styled(Link)`
-	@media screen and (max-width: 960px) {
-		padding-right: 20px;
 	}
 `;
 
@@ -84,47 +67,14 @@ const Header = () => {
 				<BurgerMenu isMenuClicked={isMenuClicked} onClick={() => setIsMenuClicked(!isMenuClicked)} />
 
 				<HeaderSocials>
-					<SocialIcon url={GITHUB}>
-						<HeaderSocialsLink>
-							<BsGithub />
-						</HeaderSocialsLink>
-					</SocialIcon>
-					<SocialIcon url={LINKEDIN}>
-						<HeaderSocialsLink>
-							<BsLinkedin />
-						</HeaderSocialsLink>
-					</SocialIcon>
-					<SocialIcon url={INSTAGRAM}>
-						<HeaderSocialsLink>
-							<BsInstagram />
-						</HeaderSocialsLink>
-					</SocialIcon>
-					<SocialIcon url={FACEBOOK}>
-						<HeaderSocialsLink>
-							<BsFacebook />
-						</HeaderSocialsLink>
-					</SocialIcon>
+					<SocialIcon />
 				</HeaderSocials>
 
-				<Menu isMenuClicked={isMenuClicked}>
+				<NavMenuContainer isMenuClicked={isMenuClicked}>
 					<NavMenu>
-						<NavContent>
-							<NavContentLink href="/">{HOME}</NavContentLink>
-						</NavContent>
-						<NavContent>
-							<NavContentLink href="/">{ABOUT}</NavContentLink>
-						</NavContent>
-						<NavContent>
-							<NavContentLink href="/">{PORTFOLIO}</NavContentLink>
-						</NavContent>
-						<NavContent>
-							<NavContentLink href="/">{SKILLS}</NavContentLink>
-						</NavContent>
-						<NavContent>
-							<NavContentLink href="/">{CONTACT}</NavContentLink>
-						</NavContent>
+						<NavContents />
 					</NavMenu>
-				</Menu>
+				</NavMenuContainer>
 			</NavBar>
 		</HeaderContainer>
 	);
