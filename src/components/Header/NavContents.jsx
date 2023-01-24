@@ -11,11 +11,10 @@ const NavContentLink = styled(Link)`
 `;
 
 const NavContentsArr = [HOME, ABOUT, PORTFOLIO, SKILLS, CONTACT];
-const NavContents = () =>
-	NavContentsArr.map((content) => (
+export function NavContents() {
+	return NavContentsArr.map((content) => (
 		<NavContent>
 			<NavContentLink href="/">{content}</NavContentLink>
 		</NavContent>
 	));
-
-export default NavContents;
+}

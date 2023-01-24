@@ -1,4 +1,4 @@
-export { default as Header } from "./Header/Header";
-export { default as BurgerMenu } from "./Header/BurgerMenu";
-export { default as SocialIcon } from "./common/SocialIcon/SocialIcon";
-export { default as NavContents } from "./Header/NavContents";
+export { Header } from "./Header/Header";
+export { BurgerMenu } from "./Header/BurgerMenu";
+export { SocialIcon } from "./common/SocialIcon/SocialIcon";
+export { NavContents } from "./Header/NavContents";

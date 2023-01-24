@@ -58,7 +58,7 @@ const HeaderSocials = styled.div`
 	}
 `;
 
-const Header = () => {
+export function Header() {
 	const [isMenuClicked, setIsMenuClicked] = useState(false);
 
 	return (
@@ -78,6 +78,4 @@ const Header = () => {
 			</NavBar>
 		</HeaderContainer>
 	);
-};
-
-export default Header;
+}

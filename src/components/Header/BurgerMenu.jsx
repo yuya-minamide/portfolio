@@ -39,7 +39,7 @@ const BurgerMenuContainer = styled.div`
 	}
 `;
 
-const BurgerMenu = ({ isMenuClicked, onClick }) => {
+export function BurgerMenu({ isMenuClicked, onClick }) {
 	return (
 		<BurgerMenuContainer isMenuClicked={isMenuClicked} onClick={onClick}>
 			<div />
@@ -47,6 +47,4 @@ const BurgerMenu = ({ isMenuClicked, onClick }) => {
 			<div />
 		</BurgerMenuContainer>
 	);
-};
-
-export default BurgerMenu;
+}
