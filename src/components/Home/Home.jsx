@@ -1,5 +1,8 @@
 import styled from "styled-components";
+import { CommonButton } from "../index";
 import {
+	RESUME_LINK,
+	RESUME,
 	GREETING,
 	MY_NAME,
 	MY_POSITION,
@@ -15,7 +18,7 @@ const TabletIndention = styled.br`
 	}
 `;
 
-const HomeContainer = styled.div`
+const HomeContainer = styled.section`
 	margin-top: 20%;
 
 	@media screen and (max-width: 960px) {
@@ -42,7 +45,7 @@ const ShortIntroduction = styled.p`
 
 export function Home() {
 	return (
-		<HomeContainer>
+		<HomeContainer id="home">
 			<Greeting>{GREETING}</Greeting>
 			<MyName>
 				{MY_NAME}
@@ -54,6 +57,7 @@ export function Home() {
 				{SHORT_INTRODUCTION2} <br />
 				{SHORT_INTRODUCTION3}
 			</ShortIntroduction>
+			<CommonButton url={RESUME_LINK} content={RESUME} />
 		</HomeContainer>
 	);
 }

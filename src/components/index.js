@@ -2,6 +2,7 @@
  * Common
  */
 export { SocialIcon } from "./common/SocialIcon/SocialIcon";
+export { CommonButton } from "./common/CommonButton/CommonButton";
 
 /**
  * Header

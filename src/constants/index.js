@@ -23,6 +23,16 @@ export const SOCIAL_CONTENT_ICONS = {
 };
 
 /**
+ * Button URL
+ */
+export const RESUME_LINK = "/";
+
+/**
+ * Button contents
+ */
+export const RESUME = "Resume";
+
+/**
  * Home
  */
 export const GREETING = "Hi, my name is";
