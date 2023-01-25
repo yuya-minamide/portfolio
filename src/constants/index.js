@@ -21,3 +21,13 @@ export const SOCIAL_CONTENT_ICONS = {
 	Instagram: <BsInstagram />,
 	FaceBook: <BsFacebook />,
 };
+
+/**
+ * Home
+ */
+export const GREETING = "Hi, my name is";
+export const MY_NAME = "Yuya Minamide.";
+export const MY_POSITION = "Frontend Developer.";
+export const SHORT_INTRODUCTION1 = "I am a Frontend Developer.";
+export const SHORT_INTRODUCTION2 = "I am specialized in frontend development";
+export const SHORT_INTRODUCTION3 = "using React.js, Next.js, Typescript, and Redux.";

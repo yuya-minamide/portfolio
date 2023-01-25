@@ -14,3 +14,8 @@ export { NavContents } from "./Header/NavContents";
  * PageLayout
  */
 export { PageLayout } from "./PageLayout/PageLayout";
+
+/**
+ * Home
+ */
+export { Home } from "./Home/Home";
