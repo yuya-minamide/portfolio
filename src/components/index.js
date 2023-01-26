@@ -1,4 +1,22 @@
+/**
+ * Common
+ */
+export { SocialIcon } from "./common/SocialIcon/SocialIcon";
+export { CommonButton } from "./common/CommonButton/CommonButton";
+
+/**
+ * Header
+ */
 export { Header } from "./Header/Header";
 export { BurgerMenu } from "./Header/BurgerMenu";
-export { SocialIcon } from "./common/SocialIcon/SocialIcon";
 export { NavContents } from "./Header/NavContents";
+
+/**
+ * PageLayout
+ */
+export { PageLayout } from "./PageLayout/PageLayout";
+
+/**
+ * Home
+ */
+export { Home } from "./Home/Home";
