@@ -34,7 +34,7 @@ const Greeting = styled.h4`
 	color: var(--color-orange);
 `;
 
-const MyName = styled.h1`
+const Title = styled.h1`
 	line-height: 1.2;
 	margin: 10px 0;
 `;
@@ -47,11 +47,11 @@ export function Home() {
 	return (
 		<HomeContainer id="home">
 			<Greeting>{GREETING}</Greeting>
-			<MyName>
+			<Title>
 				{MY_NAME}
 				<br />
 				{MY_POSITION}
-			</MyName>
+			</Title>
 			<ShortIntroduction>
 				{SHORT_INTRODUCTION1} <TabletIndention />
 				{SHORT_INTRODUCTION2} <br />
