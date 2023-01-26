@@ -17,6 +17,11 @@ export { NavContents } from "./Header/NavContents";
 export { PageLayout } from "./PageLayout/PageLayout";
 
 /**
+ * SideBar
+ */
+export { SideBar } from "./SideBar/SideBar";
+
+/**
  * Home
  */
 export { Home } from "./Home/Home";
