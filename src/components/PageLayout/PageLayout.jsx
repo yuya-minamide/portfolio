@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Home } from "../index";
+import { Home, About } from "../index";
 
 const PageLayoutContainer = styled.div`
 	margin: 0 15%;
@@ -13,6 +13,7 @@ export function PageLayout() {
 	return (
 		<PageLayoutContainer>
 			<Home />
+			<About />
 		</PageLayoutContainer>
 	);
 }

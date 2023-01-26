@@ -26,3 +26,8 @@ export { SocialSideBar } from "./SocialSideBar/SocialSideBar";
  * Home
  */
 export { Home } from "./Home/Home";
+
+/**
+ * About
+ */
+export { About } from "./About/About";
