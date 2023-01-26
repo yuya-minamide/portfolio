@@ -16,6 +16,6 @@ const TitleContainer = styled.h1`
 	}
 `;
 
-export function Title(props) {
-	return <TitleContainer>{props.content}</TitleContainer>;
+export function Title({ content }) {
+	return <TitleContainer>{content}</TitleContainer>;
 }
