@@ -41,3 +41,10 @@ export const MY_POSITION = "Frontend Developer.";
 export const SHORT_INTRODUCTION1 = "I am a Frontend Developer.";
 export const SHORT_INTRODUCTION2 = "I am specialized in frontend development";
 export const SHORT_INTRODUCTION3 = "using React.js, Next.js, Typescript, and Redux.";
+
+/**
+ * About
+ */
+export const ABOUT_TITLE = "About Me";
+export const INTRODUCTION =
+	"As a front-end developer with a background in computer science and machine engineering, I have strong skills in HTML, CSS, JavaScript, React.js, and Next.js. I am a hard worker with good communication skills and a proven ability to problem-solve and think creatively. I am confident in my ability to create high-quality, user-friendly web experiences and am excited to bring my skills and experience to a new team.";

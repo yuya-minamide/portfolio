@@ -3,6 +3,7 @@
  */
 export { SocialIcon } from "./common/SocialIcon/SocialIcon";
 export { CommonButton } from "./common/CommonButton/CommonButton";
+export { Ttile } from "./common/Title/Title";
 
 /**
  * Header
@@ -25,3 +26,8 @@ export { SocialSideBar } from "./SocialSideBar/SocialSideBar";
  * Home
  */
 export { Home } from "./Home/Home";
+
+/**
+ * About
+ */
+export { About } from "./About/About";
