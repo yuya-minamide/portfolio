@@ -36,3 +36,4 @@ export { About } from "./About/About";
  * Portfolio
  */
 export { Portfolio } from "./Portfolio/Portfolio";
+export { PortfolioContentLeft } from "./Portfolio/PortfolioContentLeft";
