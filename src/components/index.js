@@ -31,3 +31,8 @@ export { Home } from "./Home/Home";
  * About
  */
 export { About } from "./About/About";
+
+/**
+ * Portfolio
+ */
+export { Portfolio } from "./Portfolio/Portfolio";
