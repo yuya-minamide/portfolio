@@ -1,4 +1,4 @@
-import { Title, PortfolioContentLeft } from "../index";
+import { Title, PortfolioContentLeft, PortfolioContentRight } from "../index";
 import { PORTFOLIO_TITLE } from "@/constants";
 
 export function Portfolio() {
@@ -6,6 +6,7 @@ export function Portfolio() {
 		<div>
 			<Title content={PORTFOLIO_TITLE} />
 			<PortfolioContentLeft />
+			<PortfolioContentRight />
 		</div>
 	);
 }
