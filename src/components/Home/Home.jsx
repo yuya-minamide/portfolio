@@ -9,7 +9,7 @@ import {
 	SHORT_INTRODUCTION1,
 	SHORT_INTRODUCTION2,
 	SHORT_INTRODUCTION3,
-} from "../../constants/index";
+} from "@/constants";
 
 const TabletIndention = styled.br`
 	display: none;

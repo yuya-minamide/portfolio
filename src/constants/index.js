@@ -6,7 +6,6 @@ export const NAV_MENU_CONTENTS = ["Home", "About", "Portfolio", "Skills", "Conta
 /**
  * SocialIcon URL
  */
-import { IconContext } from "react-icons";
 import { BsGithub, BsLinkedin, BsInstagram, BsFacebook } from "react-icons/bs";
 export const SOCIAL_CONTENTS = ["GitHub", "LinkedIn", "Instagram", "FaceBook"];
 export const SOCIAL_CONTENT_LINKS = {

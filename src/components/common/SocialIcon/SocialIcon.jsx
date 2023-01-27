@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styled from "styled-components";
 import { IconContext } from "react-icons";
-import { SOCIAL_CONTENTS, SOCIAL_CONTENT_LINKS, SOCIAL_CONTENT_ICONS } from "../../../constants/index";
+import { SOCIAL_CONTENTS, SOCIAL_CONTENT_LINKS, SOCIAL_CONTENT_ICONS } from "@/constants";
 
 const SocialLink = styled(Link)`
 	margin: 0;
