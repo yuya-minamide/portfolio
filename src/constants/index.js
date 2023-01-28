@@ -52,3 +52,20 @@ export const INTRODUCTION =
  * Portfolio
  */
 export const PORTFOLIO_TITLE = "My Portfolio";
+export const LEFT_CONTENT = {
+	title: "Weather forecast chat bot",
+	technical: "Node.js, OpenWeather API, LINE API",
+	description:
+		"This chat bot will reply with the 4-day weather forecast for the city posted by the user. Weather forecast data is obtained from the OpenWeather API.",
+	button: "See GitHub",
+	url: "https://github.com/yuya-minamide/weather-forecast-bot",
+	video: "/assets/demonstration.gif",
+};
+export const RIGHT_CONTENT = {
+	title: "Portfolio Site",
+	technical: "Next.js, Styled-component",
+	description: "This is my portfolio site, created in Next.js. My own skills are represented on this site.",
+	button: "See GitHub",
+	url: "https://github.com/yuya-minamide/portfolio",
+	video: "/assets/temp-picture.png",
+};

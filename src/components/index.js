@@ -38,3 +38,6 @@ export { About } from "./About/About";
 export { Portfolio } from "./Portfolio/Portfolio";
 export { PortfolioContentLeft } from "./Portfolio/PortfolioContentLeft";
 export { PortfolioContentRight } from "./Portfolio/PortfolioContentRight";
+export { ProjectTitle } from "./Portfolio/ProjectTitle";
+export { ProjectDescription } from "./Portfolio/ProjectDescription";
+export { ProjectVideo } from "./Portfolio/ProjectVideo";
