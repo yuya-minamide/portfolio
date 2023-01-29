@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { SocialIcon } from "../index";
+import { TABLET } from "@/constants";
 
 const SideBarContainer = styled.div`
 	position: fixed;
@@ -28,7 +29,7 @@ const SideBarContainer = styled.div`
 		background: var(--color-white);
 	}
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		display: none;
 	}
 `;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { SMARTPHONE } from "@/constants";
 
 const Title = styled.h2`
 	font-weight: 600;
@@ -8,7 +9,7 @@ const Title = styled.h2`
 const Technical = styled.p`
 	color: var(--color-orange);
 
-	@media screen and (max-width: 520px) {
+	@media screen and (max-width: ${SMARTPHONE}) {
 		font-size: 0.8rem;
 	}
 `;

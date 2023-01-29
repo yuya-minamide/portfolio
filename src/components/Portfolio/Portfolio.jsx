@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { Title, PortfolioContentLeft, PortfolioContentRight } from "../index";
-import { PORTFOLIO_TITLE, PORTFOLIO_CONTENTS } from "@/constants";
+import { PORTFOLIO_TITLE, PORTFOLIO_CONTENTS, TABLET } from "@/constants";
 
 const PortfolioContainer = styled.section`
 	margin-top: 30%;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		text-align: center;
 	}
 `;

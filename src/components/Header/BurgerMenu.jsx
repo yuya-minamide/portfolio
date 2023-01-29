@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { TABLET } from "@/constants";
 
 const BurgerMenuContainer = styled.div`
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		height: 100%;
 		width: 3rem;
 		display: flex;

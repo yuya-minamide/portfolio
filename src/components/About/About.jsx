@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import { Title } from "../index";
-import { ABOUT_TITLE, INTRODUCTION } from "@/constants";
+import { ABOUT_TITLE, INTRODUCTION, TABLET, SMARTPHONE } from "@/constants";
 
 const AboutSection = styled.section`
 	margin-top: 30%;
 	display: flex;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -15,21 +15,21 @@ const AboutSection = styled.section`
 const AboutContainer = styled.div`
 	width: 50%;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		order: 2;
 		text-align: center;
 		width: 80%;
-	}
 
-	@media screen and (max-width: 520px) {
-		width: 90%;
+		@media screen and (max-width: ${SMARTPHONE}) {
+			width: 90%;
+		}
 	}
 `;
 
 const Introduction = styled.p`
 	width: 90%;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		width: 100%;
 	}
 `;
@@ -45,12 +45,9 @@ const MyPicture = styled.div`
 	margin-left: 80px;
 	box-shadow: 0 0 14px var(--color-orange);
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		order: 1;
 		margin: 0 0 30px 0;
-	}
-
-	@media screen and (max-width: 520px) {
 		width: 200px;
 		height: 200px;
 	}

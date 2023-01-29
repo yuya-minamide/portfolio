@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import Image from "next/image";
+import { TABLET } from "@/constants";
 
 const VideoContainer = styled.div`
 	width: 100%;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		margin-top: 20px;
 	}
 `;

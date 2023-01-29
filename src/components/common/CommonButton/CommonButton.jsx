@@ -1,10 +1,11 @@
 import Link from "next/link";
 import styled from "styled-components";
+import { TABLET, SMARTPHONE } from "@/constants";
 
 const ButtonContainer = styled.div`
 	margin-top: 50px;
 
-	@media screen and (max-width: 520px) {
+	@media screen and (max-width: ${SMARTPHONE}) {
 		margin-top: 30px;
 	}
 `;
@@ -41,12 +42,12 @@ const Button = styled(Link)`
 		}
 	}
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		font-size: 1rem;
 		width: 180;
 	}
 
-	@media screen and (max-width: 520px) {
+	@media screen and (max-width: ${SMARTPHONE}) {
 		font-size: 0.8rem;
 		width: 140px;
 	}

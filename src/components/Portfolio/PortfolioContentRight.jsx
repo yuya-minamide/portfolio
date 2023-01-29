@@ -1,16 +1,17 @@
 import styled from "styled-components";
 import { ProjectTitle, ProjectDescription, ProjectVideo } from "../index";
+import { TABLET, SMARTPHONE } from "@/constants";
 
 const PortfolioContainer = styled.div`
 	display: flex;
 	position: relative;
 	margin-bottom: 130px;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		flex-direction: column;
 		margin-bottom: 40px;
 
-		@media screen and (max-width: 520px) {
+		@media screen and (max-width: ${SMARTPHONE}) {
 			margin-bottom: 20px;
 		}
 	}
@@ -19,7 +20,7 @@ const PortfolioContainer = styled.div`
 const LeftContainer = styled.div`
 	width: 50%;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		width: 100%;
 	}
 `;
@@ -29,7 +30,7 @@ const RightContainer = styled.div`
 	right: 30px;
 	z-index: 1;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		width: 100%;
 		position: static;
 		text-align: center;
@@ -39,7 +40,7 @@ const RightContainer = styled.div`
 const TitleContainer = styled.div`
 	margin: 0 0 40px 50px;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		margin: 0 0 20px 0;
 	}
 `;
@@ -47,10 +48,10 @@ const DescriptionContainer = styled.div`
 	background-color: var(--color-second-bg);
 	padding: 16px 28px;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		padding: 30px 40px;
 
-		@media screen and (max-width: 520px) {
+		@media screen and (max-width: ${SMARTPHONE}) {
 			padding: 20px 20px;
 		}
 	}

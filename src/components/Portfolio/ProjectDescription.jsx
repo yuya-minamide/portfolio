@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { CommonButton } from "../index";
 
 export function ProjectDescription({ description, url, button }) {

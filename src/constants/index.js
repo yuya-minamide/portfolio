@@ -1,4 +1,10 @@
 /**
+ * Break point
+ */
+export const TABLET = "960px";
+export const SMARTPHONE = "520px";
+
+/**
  * Header
  */
 export const NAV_MENU_CONTENTS = ["Home", "About", "Portfolio", "Skills", "Contact"];
