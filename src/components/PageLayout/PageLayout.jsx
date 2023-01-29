@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Home, About, Portfolio } from "../index";
 
 const PageLayoutContainer = styled.div`
-	margin: 0 15%;
+	margin: 0 13%;
 
 	@media screen and (max-width: 960px) {
 		margin: 0 10%;

@@ -1,12 +1,26 @@
+import styled from "styled-components";
 import { Title, PortfolioContentLeft, PortfolioContentRight } from "../index";
-import { PORTFOLIO_TITLE, LEFT_CONTENT, RIGHT_CONTENT } from "@/constants";
+import { PORTFOLIO_TITLE, PORTFOLIO_CONTENTS } from "@/constants";
+
+const PortfolioContainer = styled.section`
+	margin-top: 30%;
+
+	@media screen and (max-width: 960px) {
+		text-align: center;
+	}
+`;
 
 export function Portfolio() {
 	return (
-		<div>
+		<PortfolioContainer>
 			<Title content={PORTFOLIO_TITLE} />
-			<PortfolioContentLeft content={LEFT_CONTENT} />
-			<PortfolioContentRight content={RIGHT_CONTENT} />
-		</div>
+			{PORTFOLIO_CONTENTS.map((item, index) => {
+				if (index % 2 === 0) {
+					return <PortfolioContentLeft key={index} content={item} />;
+				} else {
+					return <PortfolioContentRight key={index} content={item} />;
+				}
+			})}
+		</PortfolioContainer>
 	);
 }

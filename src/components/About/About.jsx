@@ -27,7 +27,7 @@ const AboutContainer = styled.div`
 `;
 
 const Introduction = styled.p`
-	width: 80%;
+	width: 90%;
 
 	@media screen and (max-width: 960px) {
 		width: 100%;

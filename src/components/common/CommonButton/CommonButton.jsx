@@ -19,7 +19,7 @@ const Button = styled(Link)`
 	font-weight: bold;
 	padding: 10px 0;
 	text-align: center;
-	width: 18%;
+	width: 200px;
 	z-index: 1;
 	&:before {
 		border-radius: 8px;
@@ -43,12 +43,12 @@ const Button = styled(Link)`
 
 	@media screen and (max-width: 960px) {
 		font-size: 1rem;
-		width: 30%;
+		width: 180;
 	}
 
 	@media screen and (max-width: 520px) {
 		font-size: 0.8rem;
-		width: 35%;
+		width: 140px;
 	}
 `;
 
