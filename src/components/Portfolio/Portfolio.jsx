@@ -12,7 +12,7 @@ const PortfolioContainer = styled.section`
 
 export function Portfolio() {
 	return (
-		<PortfolioContainer>
+		<PortfolioContainer id="portfolio">
 			<Title content={PORTFOLIO_TITLE} />
 			{PORTFOLIO_CONTENTS.map((item, index) => {
 				if (index % 2 === 0) {
