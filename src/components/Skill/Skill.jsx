@@ -1,3 +1,9 @@
+import { IconName } from "../index";
+
 export function Skill() {
-	return <div>Skill</div>;
+	return (
+		<div>
+			<IconName />
+		</div>
+	);
 }
