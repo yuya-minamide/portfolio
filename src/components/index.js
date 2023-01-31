@@ -41,3 +41,8 @@ export { PortfolioContentRight } from "./Portfolio/PortfolioContentRight";
 export { ProjectTitle } from "./Portfolio/ProjectTitle";
 export { ProjectDescription } from "./Portfolio/ProjectDescription";
 export { ProjectVideo } from "./Portfolio/ProjectVideo";
+
+/**
+ * Skill
+ */
+export { Skill } from "./Skill/Skill";

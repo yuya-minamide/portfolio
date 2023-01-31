@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Home, About, Portfolio } from "../index";
+import { Home, About, Portfolio, Skill } from "../index";
 import { TABLET } from "@/constants";
 
 const PageLayoutContainer = styled.div`
@@ -16,6 +16,7 @@ export function PageLayout() {
 			<Home />
 			<About />
 			<Portfolio />
+			<Skill />
 		</PageLayoutContainer>
 	);
 }
