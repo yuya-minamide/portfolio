@@ -14,13 +14,13 @@ export function Portfolio() {
 	return (
 		<PortfolioContainer id="portfolio">
 			<Title content={PORTFOLIO_TITLE} />
-			{PORTFOLIO_CONTENTS.map((item, index) => {
-				if (index % 2 === 0) {
-					return <PortfolioContentLeft key={index} content={item} />;
-				} else {
-					return <PortfolioContentRight key={index} content={item} />;
-				}
-			})}
+			{PORTFOLIO_CONTENTS.map((item, index) =>
+				index % 2 === 0 ? (
+					<PortfolioContentLeft key={index} content={item} />
+				) : (
+					<PortfolioContentRight key={index} content={item} />
+				)
+			)}
 		</PortfolioContainer>
 	);
 }
