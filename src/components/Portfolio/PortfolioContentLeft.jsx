@@ -5,7 +5,7 @@ import { TABLET, SMARTPHONE } from "@/constants";
 const PortfolioContainer = styled.div`
 	display: flex;
 	position: relative;
-	margin-bottom: 130px;
+	margin-bottom: 160px;
 
 	@media screen and (max-width: ${TABLET}) {
 		flex-direction: column-reverse;
