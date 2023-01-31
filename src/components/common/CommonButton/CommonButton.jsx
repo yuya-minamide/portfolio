@@ -44,7 +44,7 @@ const Button = styled(Link)`
 
 	@media screen and (max-width: ${TABLET}) {
 		font-size: 1rem;
-		width: 180;
+		width: 180px;
 	}
 
 	@media screen and (max-width: ${SMARTPHONE}) {
