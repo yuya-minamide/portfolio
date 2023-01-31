@@ -17,9 +17,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    --color-bg: #242235;
+    --color-bg: #1D1C24;
     --color-white: #fff;
     --color-orange: #fb8903;
+    --color-second-bg: #242235;
 
     --transition: all 400ms ease;
   }

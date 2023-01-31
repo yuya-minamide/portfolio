@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { BurgerMenu, SocialIcon, NavContents } from "../index";
+import { TABLET } from "@/constants";
 
 const HeaderContainer = styled.header`
 	width: 100%;
@@ -17,7 +18,7 @@ const NavBar = styled.div`
 	justify-content: flex-end;
 	box-shadow: 0px 10px 10px -5px rgba(255, 255, 255, 0.3);
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		justify-content: space-between;
 	}
 `;
@@ -27,7 +28,7 @@ const NavMenuContainer = styled.nav`
 	justify-content: flex-end;
 	align-items: center;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		display: ${({ isMenuClicked }) => (isMenuClicked ? "inherit" : "none")};
 		width: 100%;
 		height: 100vh;
@@ -43,7 +44,7 @@ const NavMenuContainer = styled.nav`
 const NavMenu = styled.ul`
 	display: flex;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		display: block;
 		text-align: center;
 	}
@@ -52,7 +53,7 @@ const NavMenu = styled.ul`
 const HeaderSocials = styled.div`
 	display: none;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		display: flex;
 		align-items: center;
 	}

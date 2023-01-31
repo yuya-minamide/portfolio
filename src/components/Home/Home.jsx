@@ -9,11 +9,13 @@ import {
 	SHORT_INTRODUCTION1,
 	SHORT_INTRODUCTION2,
 	SHORT_INTRODUCTION3,
-} from "../../constants/index";
+	TABLET,
+	SMARTPHONE,
+} from "@/constants";
 
 const TabletIndention = styled.br`
 	display: none;
-	@media (max-width: 960px) {
+	@media (max-width: ${TABLET}) {
 		display: block;
 	}
 `;
@@ -21,12 +23,12 @@ const TabletIndention = styled.br`
 const HomeContainer = styled.section`
 	margin-top: 20%;
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		margin-top: 30%;
-	}
 
-	@media screen and (max-width: 520px) {
-		margin-top: 50%;
+		@media screen and (max-width: ${SMARTPHONE}) {
+			margin-top: 50%;
+		}
 	}
 `;
 

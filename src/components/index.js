@@ -3,7 +3,7 @@
  */
 export { SocialIcon } from "./common/SocialIcon/SocialIcon";
 export { CommonButton } from "./common/CommonButton/CommonButton";
-export { Ttile } from "./common/Title/Title";
+export { Title } from "./common/Title/Title";
 
 /**
  * Header
@@ -31,3 +31,13 @@ export { Home } from "./Home/Home";
  * About
  */
 export { About } from "./About/About";
+
+/**
+ * Portfolio
+ */
+export { Portfolio } from "./Portfolio/Portfolio";
+export { PortfolioContentLeft } from "./Portfolio/PortfolioContentLeft";
+export { PortfolioContentRight } from "./Portfolio/PortfolioContentRight";
+export { ProjectTitle } from "./Portfolio/ProjectTitle";
+export { ProjectDescription } from "./Portfolio/ProjectDescription";
+export { ProjectVideo } from "./Portfolio/ProjectVideo";

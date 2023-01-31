@@ -1,10 +1,11 @@
 import Link from "next/link";
 import styled from "styled-components";
+import { TABLET, SMARTPHONE } from "@/constants";
 
 const ButtonContainer = styled.div`
 	margin-top: 50px;
 
-	@media screen and (max-width: 520px) {
+	@media screen and (max-width: ${SMARTPHONE}) {
 		margin-top: 30px;
 	}
 `;
@@ -19,7 +20,7 @@ const Button = styled(Link)`
 	font-weight: bold;
 	padding: 10px 0;
 	text-align: center;
-	width: 18%;
+	width: 200px;
 	z-index: 1;
 	&:before {
 		border-radius: 8px;
@@ -41,14 +42,14 @@ const Button = styled(Link)`
 		}
 	}
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: ${TABLET}) {
 		font-size: 1rem;
-		width: 30%;
+		width: 180px;
 	}
 
-	@media screen and (max-width: 520px) {
+	@media screen and (max-width: ${SMARTPHONE}) {
 		font-size: 0.8rem;
-		width: 35%;
+		width: 140px;
 	}
 `;
 
