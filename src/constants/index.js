@@ -77,3 +77,42 @@ export const PORTFOLIO_CONTENTS = [
 		video: "/assets/temp-picture.png",
 	},
 ];
+
+/**
+ * Skill
+ */
+import {
+	SiHtml5,
+	SiCss3,
+	SiJavascript,
+	SiReact,
+	SiNextdotjs,
+	SiNodedotjs,
+	SiMaterialui,
+	SiGit,
+	SiGithub,
+} from "react-icons/si";
+export const SKILL_TITLE = "My Skills";
+export const SKILL_CONTENTS = ["html", "css", "javascript", "react", "next", "node", "materialui", "git", "github"];
+export const SKILLS_ICON_NAMES = {
+	html: "HTML",
+	css: "CSS",
+	javascript: "JS",
+	react: "React",
+	next: "Next",
+	node: "Node",
+	materialui: "MUI",
+	git: "Git",
+	github: "GitHub",
+};
+export const SKILL_ICONS = {
+	html: <SiHtml5 />,
+	css: <SiCss3 />,
+	javascript: <SiJavascript />,
+	react: <SiReact />,
+	next: <SiNextdotjs />,
+	node: <SiNodedotjs />,
+	materialui: <SiMaterialui />,
+	git: <SiGit />,
+	github: <SiGithub />,
+};
