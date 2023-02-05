@@ -46,4 +46,3 @@ export { ProjectVideo } from "./Portfolio/ProjectVideo";
  * Skill
  */
 export { Skill } from "./Skill/Skill";
-export { IconName } from "./Skill/IconName";
