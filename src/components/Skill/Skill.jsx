@@ -38,7 +38,7 @@ const IconName = styled.p`
 
 export function Skill() {
 	return (
-		<SkillsContainer>
+		<SkillsContainer id="skills">
 			<Title content={SKILL_TITLE} />
 			<SkillContainer>
 				{SKILL_CONTENTS.map((skill, idx) => (
