@@ -84,26 +84,41 @@ export const PORTFOLIO_CONTENTS = [
  * Skill
  */
 export const SKILL_TITLE = "My Skills";
-export const SKILL_CONTENTS = ["html", "css", "javascript", "react", "next", "node", "materialui", "git", "github"];
-export const SKILLS_ICON_NAMES = {
-	html: "HTML",
-	css: "CSS",
-	javascript: "JS",
-	react: "React",
-	next: "Next",
-	node: "Node",
-	materialui: "MUI",
-	git: "Git",
-	github: "GitHub",
-};
-export const SKILL_ICONS = {
-	html: <SiHtml5 />,
-	css: <SiCss3 />,
-	javascript: <SiJavascript />,
-	react: <SiReact />,
-	next: <SiNextdotjs />,
-	node: <SiNodedotjs />,
-	materialui: <SiMaterialui />,
-	git: <SiGit />,
-	github: <SiGithub />,
+export const SKILL_DETAILES = {
+	html: {
+		icon: <SiHtml5 />,
+		name: "HTML",
+	},
+	css: {
+		icon: <SiCss3 />,
+		name: "CSS",
+	},
+	javascript: {
+		icon: <SiJavascript />,
+		name: "JS",
+	},
+	react: {
+		icon: <SiReact />,
+		name: "React",
+	},
+	next: {
+		icon: <SiNextdotjs />,
+		name: "Next",
+	},
+	node: {
+		icon: <SiNodedotjs />,
+		name: "Node",
+	},
+	materialui: {
+		icon: <SiMaterialui />,
+		name: "MUI",
+	},
+	git: {
+		icon: <SiGit />,
+		name: "Git",
+	},
+	github: {
+		icon: <SiGithub />,
+		name: "GitHub",
+	},
 };

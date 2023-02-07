@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Title } from "../index";
+import { TABLET, SMARTPHONE, SKILL_TITLE, SKILL_DETAILES } from "@/constants";
 import { IconContext } from "react-icons";
-import { SKILL_TITLE, SKILL_CONTENTS, SKILL_ICONS, SKILLS_ICON_NAMES, TABLET, SMARTPHONE } from "@/constants";
 
 const SkillsContainer = styled.section`
 	margin-top: 30%;
@@ -41,12 +41,10 @@ export function Skill() {
 		<SkillsContainer id="skills">
 			<Title content={SKILL_TITLE} />
 			<SkillContainer>
-				{SKILL_CONTENTS.map((skill, idx) => (
-					<SkillContent key={idx}>
-						<IconContext.Provider value={{ color: "#ccc", size: "3rem" }}>
-							{SKILL_ICONS[skill]}
-						</IconContext.Provider>
-						<IconName>{SKILLS_ICON_NAMES[skill]}</IconName>
+				{Object.values(SKILL_DETAILES).map((skill) => (
+					<SkillContent>
+						<IconContext.Provider value={{ color: "#ccc", size: "3rem" }}>{skill.icon}</IconContext.Provider>
+						<IconName>{skill.name}</IconName>
 					</SkillContent>
 				))}
 			</SkillContainer>
