@@ -1,3 +1,6 @@
+import { BsGithub, BsLinkedin, BsInstagram, BsFacebook } from "react-icons/bs";
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiMaterialui, SiGit, SiGithub } from "react-icons/si";
+
 /**
  * Break point
  */
@@ -12,7 +15,6 @@ export const NAV_MENU_CONTENTS = ["Home", "About", "Portfolio", "Skills", "Conta
 /**
  * SocialIcon URL
  */
-import { BsGithub, BsLinkedin, BsInstagram, BsFacebook } from "react-icons/bs";
 export const SOCIAL_CONTENTS = ["GitHub", "LinkedIn", "Instagram", "FaceBook"];
 export const SOCIAL_CONTENT_LINKS = {
 	GitHub: "https://github.com/yuya-minamide",
@@ -81,17 +83,6 @@ export const PORTFOLIO_CONTENTS = [
 /**
  * Skill
  */
-import {
-	SiHtml5,
-	SiCss3,
-	SiJavascript,
-	SiReact,
-	SiNextdotjs,
-	SiNodedotjs,
-	SiMaterialui,
-	SiGit,
-	SiGithub,
-} from "react-icons/si";
 export const SKILL_TITLE = "My Skills";
 export const SKILL_CONTENTS = ["html", "css", "javascript", "react", "next", "node", "materialui", "git", "github"];
 export const SKILLS_ICON_NAMES = {
