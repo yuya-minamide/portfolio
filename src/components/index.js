@@ -46,3 +46,8 @@ export { ProjectVideo } from "./Portfolio/ProjectVideo";
  * Skill
  */
 export { Skill } from "./Skill/Skill";
+
+/**
+ * Contact
+ */
+export { Contact } from "./Contact/Contact";

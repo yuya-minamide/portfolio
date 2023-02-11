@@ -122,3 +122,8 @@ export const SKILL_DETAILES = {
 		name: "GitHub",
 	},
 };
+
+/**
+ * Contact
+ */
+export const CONTACT_TITLE = "My Contact";
