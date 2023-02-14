@@ -132,3 +132,4 @@ export const SKILL_DETAILES = {
  * Contact
  */
 export const CONTACT_TITLE = "My Contact";
+export const CONTACT_SOCIALS = { github: SOCIAL_CONTENTS.github, linkedin: SOCIAL_CONTENTS.linkedin };

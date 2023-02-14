@@ -12,9 +12,9 @@ const SocialLink = styled(Link)`
 `;
 
 export function SocialIcon() {
-	return Object.values(SOCIAL_CONTENTS).map((contact) => (
+	return Object.values(SOCIAL_CONTENTS).map((contact, index) => (
 		<>
-			<IconContext.Provider value={{ color: "#ccc", size: "2.1rem" }}>
+			<IconContext.Provider key={index} value={{ color: "#ccc", size: "2.1rem" }}>
 				<SocialLink href={contact.link}>{contact.icon}</SocialLink>
 			</IconContext.Provider>
 		</>

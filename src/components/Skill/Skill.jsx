@@ -41,8 +41,8 @@ export function Skill() {
 		<SkillsContainer id="skills">
 			<Title content={SKILL_TITLE} />
 			<SkillContainer>
-				{Object.values(SKILL_DETAILES).map((skill) => (
-					<SkillContent>
+				{Object.values(SKILL_DETAILES).map((skill, index) => (
+					<SkillContent key={index}>
 						<IconContext.Provider value={{ color: "#ccc", size: "3rem" }}>{skill.icon}</IconContext.Provider>
 						<IconName>{skill.name}</IconName>
 					</SkillContent>
