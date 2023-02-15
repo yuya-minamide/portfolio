@@ -125,7 +125,7 @@ export function Contact() {
 	};
 
 	return (
-		<ContactContainer>
+		<ContactContainer id="contact">
 			<Title content={CONTACT_TITLE} />
 			<ContactSocialContainer>
 				{Object.values(CONTACT_SOCIALS).map((contact, index) => (

@@ -21,13 +21,13 @@ const TabletIndention = styled.br`
 `;
 
 const HomeContainer = styled.section`
-	margin-top: 20%;
+	padding-top: 20%;
 
 	@media screen and (max-width: ${TABLET}) {
-		margin-top: 30%;
+		padding-top: 30%;
 
 		@media screen and (max-width: ${SMARTPHONE}) {
-			margin-top: 50%;
+			padding-top: 50%;
 		}
 	}
 `;
