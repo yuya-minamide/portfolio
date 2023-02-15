@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import Image from "next/image";
 import { TABLET } from "@/constants";
+import Image from "next/image";
+import styled from "styled-components";
 
 const VideoContainer = styled.div`
 	width: 100%;

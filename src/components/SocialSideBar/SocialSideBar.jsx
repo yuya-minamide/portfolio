@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { SocialIcon } from "../index";
 import { TABLET } from "@/constants";
+import { SocialIcon } from "../index";
+import styled from "styled-components";
 
 const SideBarContainer = styled.div`
 	position: fixed;

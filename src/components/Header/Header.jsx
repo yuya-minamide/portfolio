@@ -1,7 +1,7 @@
+import { TABLET } from "@/constants";
+import { BurgerMenu, NavContents, SocialIcon } from "../index";
 import React, { useState } from "react";
 import styled from "styled-components";
-import { BurgerMenu, SocialIcon, NavContents } from "../index";
-import { TABLET } from "@/constants";
 
 const HeaderContainer = styled.header`
 	width: 100%;

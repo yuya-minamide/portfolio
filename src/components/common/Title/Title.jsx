@@ -1,5 +1,5 @@
+import { SMARTPHONE, TABLET } from "@/constants";
 import styled from "styled-components";
-import { TABLET, SMARTPHONE } from "@/constants";
 
 const TitleContainer = styled.h1`
 	width: 70%;

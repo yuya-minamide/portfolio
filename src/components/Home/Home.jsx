@@ -1,17 +1,17 @@
-import styled from "styled-components";
-import { CommonButton } from "../index";
 import {
-	RESUME_LINK,
-	RESUME,
 	GREETING,
 	MY_NAME,
 	MY_POSITION,
+	RESUME,
+	RESUME_LINK,
 	SHORT_INTRODUCTION1,
 	SHORT_INTRODUCTION2,
 	SHORT_INTRODUCTION3,
-	TABLET,
 	SMARTPHONE,
+	TABLET,
 } from "@/constants";
+import { CommonButton } from "../index";
+import styled from "styled-components";
 
 const TabletIndention = styled.br`
 	display: none;

@@ -1,6 +1,6 @@
+import { SMARTPHONE, TABLET } from "@/constants";
+import { ProjectDescription, ProjectTitle, ProjectVideo } from "../index";
 import styled from "styled-components";
-import { ProjectTitle, ProjectDescription, ProjectVideo } from "../index";
-import { TABLET, SMARTPHONE } from "@/constants";
 
 const PortfolioContainer = styled.div`
 	display: flex;

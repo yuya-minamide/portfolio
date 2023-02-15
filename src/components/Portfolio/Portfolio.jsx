@@ -1,6 +1,6 @@
+import { PORTFOLIO_CONTENTS, PORTFOLIO_TITLE, TABLET } from "@/constants";
+import { PortfolioContentLeft, PortfolioContentRight, Title } from "../index";
 import styled from "styled-components";
-import { Title, PortfolioContentLeft, PortfolioContentRight } from "../index";
-import { PORTFOLIO_TITLE, PORTFOLIO_CONTENTS, TABLET } from "@/constants";
 
 const PortfolioContainer = styled.section`
 	margin-top: 30%;
@@ -15,11 +15,7 @@ export function Portfolio() {
 		<PortfolioContainer id="portfolio">
 			<Title content={PORTFOLIO_TITLE} />
 			{PORTFOLIO_CONTENTS.map((item, index) =>
-				index % 2 === 0 ? (
-					<PortfolioContentLeft key={index} content={item} />
-				) : (
-					<PortfolioContentRight key={index} content={item} />
-				)
+				index % 2 === 0 ? <PortfolioContentLeft key={index} content={item} /> : <PortfolioContentRight key={index} content={item} />
 			)}
 		</PortfolioContainer>
 	);

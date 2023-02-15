@@ -1,6 +1,6 @@
+import { NAV_MENU_CONTENTS } from "@/constants";
 import Link from "next/link";
 import styled from "styled-components";
-import { NAV_MENU_CONTENTS } from "@/constants";
 
 const NavContent = styled.li`
 	padding: 5px 20px 10px 0;

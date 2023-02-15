@@ -1,7 +1,7 @@
+import { SOCIAL_CONTENTS, TABLET } from "@/constants";
 import Link from "next/link";
-import styled from "styled-components";
 import { IconContext } from "react-icons";
-import { TABLET, SOCIAL_CONTENTS } from "@/constants";
+import styled from "styled-components";
 
 const SocialLink = styled(Link)`
 	margin: 0;

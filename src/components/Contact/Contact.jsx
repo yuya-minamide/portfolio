@@ -1,10 +1,10 @@
+import { CONTACT_SOCIALS, CONTACT_TITLE, TABLET } from "@/constants";
+import emailjs from "emailjs-com";
+import { Title } from "../index";
 import Link from "next/link";
 import { IconContext } from "react-icons";
-import styled from "styled-components";
-import { Title } from "../index";
-import { TABLET, CONTACT_TITLE, CONTACT_SOCIALS } from "@/constants";
 import { useRef } from "react";
-import emailjs from "emailjs-com";
+import styled from "styled-components";
 
 const ContactContainer = styled.section`
 	margin-top: 30%;

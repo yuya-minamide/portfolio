@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { Home, About, Portfolio, Skill, Contact } from "../index";
 import { TABLET } from "@/constants";
+import { About, Contact, Home, Portfolio, Skill } from "../index";
+import styled from "styled-components";
 
 const PageLayoutContainer = styled.div`
 	margin: 0 13%;

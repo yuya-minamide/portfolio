@@ -1,6 +1,6 @@
+import { SMARTPHONE, TABLET } from "@/constants";
 import Link from "next/link";
 import styled from "styled-components";
-import { TABLET, SMARTPHONE } from "@/constants";
 
 const ButtonContainer = styled.div`
 	margin-top: 50px;

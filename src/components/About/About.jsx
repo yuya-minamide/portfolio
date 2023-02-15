@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import { ABOUT_TITLE, INTRODUCTION, SMARTPHONE, TABLET } from "@/constants";
 import { Title } from "../index";
-import { ABOUT_TITLE, INTRODUCTION, TABLET, SMARTPHONE } from "@/constants";
+import styled from "styled-components";
 
 const AboutSection = styled.section`
 	margin-top: 30%;
