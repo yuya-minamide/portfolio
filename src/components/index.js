@@ -13,9 +13,9 @@ export { BurgerMenu } from "./Header/BurgerMenu/BurgerMenu";
 export { NavContents } from "./Header/NavContents/NavContents";
 
 /**
- * PageLayout
+ * MainLayout
  */
-export { PageLayout } from "./PageLayout/PageLayout";
+export { MainLayout } from "./MainLayout/MainLayout";
 
 /**
  * SocialSideBar

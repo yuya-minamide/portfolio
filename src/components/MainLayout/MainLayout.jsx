@@ -1,7 +1,7 @@
 import { About, Contact, Home, Portfolio, Skill } from "../index";
-import { PageLayoutContainer } from "./PageLayout.styles";
+import { PageLayoutContainer } from "./MainLayout.styles";
 
-export function PageLayout() {
+export function MainLayout() {
 	return (
 		<PageLayoutContainer>
 			<Home />
