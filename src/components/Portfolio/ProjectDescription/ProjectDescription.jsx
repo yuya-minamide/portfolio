@@ -1,4 +1,4 @@
-import { CommonButton } from "../index";
+import { CommonButton } from "../../index";
 
 export function ProjectDescription({ description, url, button }) {
 	return (

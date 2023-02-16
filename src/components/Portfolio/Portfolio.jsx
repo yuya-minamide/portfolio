@@ -1,14 +1,6 @@
-import { PORTFOLIO_CONTENTS, PORTFOLIO_TITLE, TABLET } from "@/constants";
+import { PORTFOLIO_CONTENTS, PORTFOLIO_TITLE } from "@/constants";
+import { PortfolioContainer } from "./Portfolio.styles";
 import { PortfolioContentLeft, PortfolioContentRight, Title } from "../index";
-import styled from "styled-components";
-
-const PortfolioContainer = styled.section`
-	margin-top: 30%;
-
-	@media screen and (max-width: ${TABLET}) {
-		text-align: center;
-	}
-`;
 
 export function Portfolio() {
 	return (

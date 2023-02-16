@@ -1,14 +1,5 @@
 import { NAV_MENU_CONTENTS } from "@/constants";
-import Link from "next/link";
-import styled from "styled-components";
-
-const NavContent = styled.li`
-	padding: 5px 20px 10px 0;
-`;
-
-const NavContentLink = styled(Link)`
-	font-size: 1.5rem;
-`;
+import { NavContent, NavContentLink } from "./NavContents.styles";
 
 export function NavContents() {
 	return NAV_MENU_CONTENTS.map((content, index) => (

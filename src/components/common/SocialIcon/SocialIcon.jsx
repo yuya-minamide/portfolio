@@ -1,15 +1,6 @@
-import { SOCIAL_CONTENTS, TABLET } from "@/constants";
-import Link from "next/link";
+import { SOCIAL_CONTENTS } from "@/constants";
 import { IconContext } from "react-icons";
-import styled from "styled-components";
-
-const SocialLink = styled(Link)`
-	margin: 0;
-
-	@media screen and (max-width: ${TABLET}) {
-		margin-right: 20px;
-	}
-`;
+import { SocialLink } from "./SocialIcon.styles";
 
 export function SocialIcon() {
 	return Object.values(SOCIAL_CONTENTS).map((contact, index) => (

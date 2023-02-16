@@ -1,7 +1,7 @@
 import { TABLET } from "@/constants";
 import styled from "styled-components";
 
-const BurgerMenuContainer = styled.div`
+export const BurgerMenuContainer = styled.div`
 	@media screen and (max-width: ${TABLET}) {
 		height: 100%;
 		width: 3rem;
@@ -34,13 +34,3 @@ const BurgerMenuContainer = styled.div`
 		}
 	}
 `;
-
-export function BurgerMenu({ isMenuClicked, onClick }) {
-	return (
-		<BurgerMenuContainer isMenuClicked={isMenuClicked} onClick={onClick}>
-			<div />
-			<div />
-			<div />
-		</BurgerMenuContainer>
-	);
-}

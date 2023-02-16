@@ -9,8 +9,8 @@ export { Title } from "./common/Title/Title";
  * Header
  */
 export { Header } from "./Header/Header";
-export { BurgerMenu } from "./Header/BurgerMenu";
-export { NavContents } from "./Header/NavContents";
+export { BurgerMenu } from "./Header/BurgerMenu/BurgerMenu";
+export { NavContents } from "./Header/NavContents/NavContents";
 
 /**
  * PageLayout
@@ -36,11 +36,11 @@ export { About } from "./About/About";
  * Portfolio
  */
 export { Portfolio } from "./Portfolio/Portfolio";
-export { PortfolioContentLeft } from "./Portfolio/PortfolioContentLeft";
-export { PortfolioContentRight } from "./Portfolio/PortfolioContentRight";
-export { ProjectTitle } from "./Portfolio/ProjectTitle";
-export { ProjectDescription } from "./Portfolio/ProjectDescription";
-export { ProjectVideo } from "./Portfolio/ProjectVideo";
+export { PortfolioContentLeft } from "./Portfolio/PortfolioContentLeft/PortfolioContentLeft";
+export { PortfolioContentRight } from "./Portfolio/PortfolioContentRight/PortfolioContentRight";
+export { ProjectTitle } from "./Portfolio/ProjectTitle/ProjectTitle";
+export { ProjectDescription } from "./Portfolio/ProjectDescription/ProjectDescription";
+export { ProjectVideo } from "./Portfolio/ProjectVideo/ProjectVideo";
 
 /**
  * Skill
