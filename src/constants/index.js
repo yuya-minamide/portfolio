@@ -35,16 +35,6 @@ export const SOCIAL_CONTENTS = {
 };
 
 /**
- * Button URL
- */
-export const RESUME_LINK = "/";
-
-/**
- * Button contents
- */
-export const RESUME = "Resume";
-
-/**
  * Home
  */
 export const GREETING = "Hi, my name is";
@@ -53,6 +43,8 @@ export const MY_POSITION = "Frontend Developer.";
 export const SHORT_INTRODUCTION1 = "I am a Frontend Developer.";
 export const SHORT_INTRODUCTION2 = "I am specialized in frontend development";
 export const SHORT_INTRODUCTION3 = "using React.js, Next.js, Typescript, and Redux.";
+export const RESUME = "Resume";
+export const RESUME_LINK = "https://drive.google.com/file/d/1t3QtUPVCxA1ieseWU0EVKEI-dOkd_gGr/view?usp=share_link";
 
 /**
  * About
@@ -78,10 +70,20 @@ export const PORTFOLIO_CONTENTS = [
 	{
 		title: "Portfolio Site",
 		technical: "Next.js, Styled-component",
-		description: "This is my portfolio site, created in Next.js. My own skills are represented on this site.",
+		description:
+			"My portfolio site showcases my projects and skills using Next.js for server-side rendering and Styled Components for easy and reusable styling.",
 		button: "See GitHub",
 		url: "https://github.com/yuya-minamide/portfolio",
-		video: "/assets/temp-picture.png",
+		video: "/assets/portfolio-site.gif",
+	},
+	{
+		title: "Cafe Drink Customizer",
+		technical: "Next.js, SCSS, Firebase",
+		description:
+			"This web app generates personalized drink menus for indecisive customers. It offers custom options for those who don't know what to order, making the decision-making process easier.",
+		button: "See GitHub",
+		url: "https://github.com/HidemichiShimura/cafe-drink-customizer",
+		video: "/assets/cafe-drink-customizer.gif",
 	},
 ];
 
@@ -133,3 +135,8 @@ export const SKILL_DETAILES = {
  */
 export const CONTACT_TITLE = "My Contact";
 export const CONTACT_SOCIALS = { github: SOCIAL_CONTENTS.github, linkedin: SOCIAL_CONTENTS.linkedin };
+
+/**
+ * Footer
+ */
+export const FOOTER_CONTENT = "2023 All Right Reserved. Yuya Minamide";
