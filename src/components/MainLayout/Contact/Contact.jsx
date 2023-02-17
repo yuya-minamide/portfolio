@@ -1,7 +1,7 @@
 import { CONTACT_SOCIALS, CONTACT_TITLE } from "@/constants";
 import { ContactContainer, ContactForm, ContactSocialContainer, MessageBox, SendButton, SocialLink, YourInfo } from "./Contact.styles";
 import emailjs from "emailjs-com";
-import { Title } from "../index";
+import { Title } from "../../index";
 import { IconContext } from "react-icons";
 import { useRef } from "react";
 

@@ -1,4 +1,4 @@
-import { ProjectDescription, ProjectTitle, ProjectVideo } from "../../index";
+import { ProjectDescription, ProjectTitle, ProjectVideo } from "../../../index";
 import { DescriptionContainer, LeftContainer, PortfolioContainer, RightContainer, TitleContainer } from "./PortfolioContentLeft.styles";
 
 export function PortfolioContentLeft({ content }) {

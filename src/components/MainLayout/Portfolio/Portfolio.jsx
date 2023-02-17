@@ -1,6 +1,6 @@
 import { PORTFOLIO_CONTENTS, PORTFOLIO_TITLE } from "@/constants";
 import { PortfolioContainer } from "./Portfolio.styles";
-import { PortfolioContentLeft, PortfolioContentRight, Title } from "../index";
+import { PortfolioContentLeft, PortfolioContentRight, Title } from "../../index";
 
 export function Portfolio() {
 	return (

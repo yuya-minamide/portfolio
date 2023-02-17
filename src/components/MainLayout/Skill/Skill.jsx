@@ -1,4 +1,4 @@
-import { Title } from "../index";
+import { Title } from "../../index";
 import { SKILL_TITLE, SKILL_DETAILES } from "@/constants";
 import { IconContext } from "react-icons";
 import { IconName, SkillContainer, SkillsContainer, SkillContent } from "./Skill.styles";
