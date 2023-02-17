@@ -1,6 +1,6 @@
-import Head from "next/head";
+import { Footer, Header, MainLayout, SocialSideBar } from "../components";
 import { GlobalStyle } from "../GlobalStyle";
-import { Header, MainLayout, SocialSideBar } from "../components/index";
+import Head from "next/head";
 
 export default function Home() {
 	return (
@@ -15,6 +15,7 @@ export default function Home() {
 			<Header />
 			<MainLayout />
 			<SocialSideBar />
+			<Footer />
 		</>
 	);
 }

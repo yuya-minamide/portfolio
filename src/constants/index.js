@@ -133,3 +133,8 @@ export const SKILL_DETAILES = {
  */
 export const CONTACT_TITLE = "My Contact";
 export const CONTACT_SOCIALS = { github: SOCIAL_CONTENTS.github, linkedin: SOCIAL_CONTENTS.linkedin };
+
+/**
+ * Footer
+ */
+export const FOOTER_CONTENT = "2023 All Right Reserved. Yuya Minamide";

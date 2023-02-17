@@ -51,3 +51,8 @@ export { Skill } from "./Skill/Skill";
  * Contact
  */
 export { Contact } from "./Contact/Contact";
+
+/**
+ * Footer
+ */
+export { Footer } from "./Footer/Footer";
