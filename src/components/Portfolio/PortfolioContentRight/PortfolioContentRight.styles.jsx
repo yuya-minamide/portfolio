@@ -1,8 +1,7 @@
+import { SMARTPHONE, TABLET } from "@/constants";
 import styled from "styled-components";
-import { ProjectTitle, ProjectDescription, ProjectVideo } from "../index";
-import { TABLET, SMARTPHONE } from "@/constants";
 
-const PortfolioContainer = styled.div`
+export const PortfolioContainer = styled.div`
 	display: flex;
 	position: relative;
 	margin-bottom: 160px;
@@ -17,14 +16,14 @@ const PortfolioContainer = styled.div`
 	}
 `;
 
-const LeftContainer = styled.div`
+export const LeftContainer = styled.div`
 	width: 50%;
 
 	@media screen and (max-width: ${TABLET}) {
 		width: 100%;
 	}
 `;
-const RightContainer = styled.div`
+export const RightContainer = styled.div`
 	width: 50%;
 	position: absolute;
 	right: 30px;
@@ -37,14 +36,14 @@ const RightContainer = styled.div`
 		margin-bottom: 20px;
 	}
 `;
-const TitleContainer = styled.div`
+export const TitleContainer = styled.div`
 	margin: 0 0 40px 50px;
 
 	@media screen and (max-width: ${TABLET}) {
 		margin: 0 0 20px 0;
 	}
 `;
-const DescriptionContainer = styled.div`
+export const DescriptionContainer = styled.div`
 	background-color: var(--color-second-bg);
 	padding: 16px 28px;
 
@@ -56,23 +55,3 @@ const DescriptionContainer = styled.div`
 		}
 	}
 `;
-
-export function PortfolioContentRight({ content }) {
-	return (
-		<PortfolioContainer>
-			<LeftContainer>
-				<ProjectVideo title={content.title} video={content.video} />
-			</LeftContainer>
-
-			<RightContainer>
-				<TitleContainer>
-					<ProjectTitle title={content.title} technical={content.technical} />
-				</TitleContainer>
-
-				<DescriptionContainer>
-					<ProjectDescription description={content.description} url={content.url} button={content.button} />
-				</DescriptionContainer>
-			</RightContainer>
-		</PortfolioContainer>
-	);
-}

@@ -1,49 +1,15 @@
-import styled from "styled-components";
-import { CommonButton } from "../index";
 import {
-	RESUME_LINK,
-	RESUME,
 	GREETING,
 	MY_NAME,
 	MY_POSITION,
+	RESUME,
+	RESUME_LINK,
 	SHORT_INTRODUCTION1,
 	SHORT_INTRODUCTION2,
 	SHORT_INTRODUCTION3,
-	TABLET,
-	SMARTPHONE,
 } from "@/constants";
-
-const TabletIndention = styled.br`
-	display: none;
-	@media (max-width: ${TABLET}) {
-		display: block;
-	}
-`;
-
-const HomeContainer = styled.section`
-	margin-top: 20%;
-
-	@media screen and (max-width: ${TABLET}) {
-		margin-top: 30%;
-
-		@media screen and (max-width: ${SMARTPHONE}) {
-			margin-top: 50%;
-		}
-	}
-`;
-
-const Greeting = styled.h4`
-	color: var(--color-orange);
-`;
-
-const Title = styled.h1`
-	line-height: 1.2;
-	margin: 10px 0;
-`;
-
-const ShortIntroduction = styled.p`
-	font-size: 1.2rem;
-`;
+import { Greeting, HomeContainer, ShortIntroduction, TabletIndention, Title } from "./Home.styles";
+import { CommonButton } from "../index";
 
 export function Home() {
 	return (

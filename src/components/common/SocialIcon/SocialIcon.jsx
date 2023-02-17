@@ -1,21 +1,12 @@
-import Link from "next/link";
-import styled from "styled-components";
+import { SOCIAL_CONTENTS } from "@/constants";
 import { IconContext } from "react-icons";
-import { SOCIAL_CONTENTS, SOCIAL_CONTENT_LINKS, SOCIAL_CONTENT_ICONS, TABLET } from "@/constants";
-
-const SocialLink = styled(Link)`
-	margin: 0;
-
-	@media screen and (max-width: ${TABLET}) {
-		margin-right: 20px;
-	}
-`;
+import { SocialLink } from "./SocialIcon.styles";
 
 export function SocialIcon() {
-	return SOCIAL_CONTENTS.map((contact) => (
+	return Object.values(SOCIAL_CONTENTS).map((contact, index) => (
 		<>
-			<IconContext.Provider value={{ color: "#ccc", size: "2.1rem" }}>
-				<SocialLink href={SOCIAL_CONTENT_LINKS[contact]}>{SOCIAL_CONTENT_ICONS[contact]}</SocialLink>
+			<IconContext.Provider key={index} value={{ color: "#ccc", size: "2.1rem" }}>
+				<SocialLink href={contact.link}>{contact.icon}</SocialLink>
 			</IconContext.Provider>
 		</>
 	));
