@@ -39,7 +39,7 @@ export const MyPicture = styled.div`
 	border-radius: 50%;
 	background-size: cover;
 	background-position: center;
-	background-image: url("assets/yuya-minamide.jpg");
+	background-image: url("assets/person.jpg");
 	border: solid 1px var(--color-orange);
 	margin-left: 80px;
 	box-shadow: 0 0 14px var(--color-orange);
