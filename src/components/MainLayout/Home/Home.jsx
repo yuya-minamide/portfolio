@@ -9,7 +9,7 @@ import {
 	SHORT_INTRODUCTION3,
 } from "@/constants";
 import { Greeting, HomeContainer, ShortIntroduction, TabletIndention, Title } from "./Home.styles";
-import { CommonButton } from "../index";
+import { CommonButton } from "../../index";
 
 export function Home() {
 	return (

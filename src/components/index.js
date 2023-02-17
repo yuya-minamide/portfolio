@@ -25,32 +25,32 @@ export { SocialSideBar } from "./SocialSideBar/SocialSideBar";
 /**
  * Home
  */
-export { Home } from "./Home/Home";
+export { Home } from "./MainLayout/Home/Home";
 
 /**
  * About
  */
-export { About } from "./About/About";
+export { About } from "./MainLayout/About/About";
 
 /**
  * Portfolio
  */
-export { Portfolio } from "./Portfolio/Portfolio";
-export { PortfolioContentLeft } from "./Portfolio/PortfolioContentLeft/PortfolioContentLeft";
-export { PortfolioContentRight } from "./Portfolio/PortfolioContentRight/PortfolioContentRight";
-export { ProjectTitle } from "./Portfolio/ProjectTitle/ProjectTitle";
-export { ProjectDescription } from "./Portfolio/ProjectDescription/ProjectDescription";
-export { ProjectVideo } from "./Portfolio/ProjectVideo/ProjectVideo";
+export { Portfolio } from "./MainLayout/Portfolio/Portfolio";
+export { PortfolioContentLeft } from "./MainLayout/Portfolio/PortfolioContentLeft/PortfolioContentLeft";
+export { PortfolioContentRight } from "./MainLayout/Portfolio/PortfolioContentRight/PortfolioContentRight";
+export { ProjectTitle } from "./MainLayout/Portfolio/ProjectTitle/ProjectTitle";
+export { ProjectDescription } from "./MainLayout/Portfolio/ProjectDescription/ProjectDescription";
+export { ProjectVideo } from "./MainLayout/Portfolio/ProjectVideo/ProjectVideo";
 
 /**
  * Skill
  */
-export { Skill } from "./Skill/Skill";
+export { Skill } from "./MainLayout/Skill/Skill";
 
 /**
  * Contact
  */
-export { Contact } from "./Contact/Contact";
+export { Contact } from "./MainLayout/Contact/Contact";
 
 /**
  * Footer
