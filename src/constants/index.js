@@ -78,10 +78,20 @@ export const PORTFOLIO_CONTENTS = [
 	{
 		title: "Portfolio Site",
 		technical: "Next.js, Styled-component",
-		description: "This is my portfolio site, created in Next.js. My own skills are represented on this site.",
+		description:
+			"My portfolio site showcases my projects and skills using Next.js for server-side rendering and Styled Components for easy and reusable styling.",
 		button: "See GitHub",
 		url: "https://github.com/yuya-minamide/portfolio",
-		video: "/assets/temp-picture.png",
+		video: "/assets/portfolio-site.gif",
+	},
+	{
+		title: "Cafe Drink Customizer",
+		technical: "Next.js, SCSS, Firebase",
+		description:
+			"This web app generates personalized drink menus for indecisive customers. It offers custom options for those who don't know what to order, making the decision-making process easier.",
+		button: "See GitHub",
+		url: "https://github.com/HidemichiShimura/cafe-drink-customizer",
+		video: "/assets/cafe-drink-customizer.gif",
 	},
 ];
 
