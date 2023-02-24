@@ -44,7 +44,7 @@ export const SHORT_INTRODUCTION1 = "I am a Frontend Developer.";
 export const SHORT_INTRODUCTION2 = "I am specialized in frontend development";
 export const SHORT_INTRODUCTION3 = "using React.js, Next.js, Typescript, and Redux.";
 export const RESUME = "Resume";
-export const RESUME_LINK = "https://drive.google.com/file/d/1t3QtUPVCxA1ieseWU0EVKEI-dOkd_gGr/view?usp=share_link";
+export const RESUME_LINK = "https://drive.google.com/file/d/12GvyvcYGwQeReDkZGTMf9uPqm-waUIVu/view?usp=share_link";
 
 /**
  * About
