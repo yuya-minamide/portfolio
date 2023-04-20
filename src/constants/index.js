@@ -1,5 +1,16 @@
 import { BsGithub, BsLinkedin, BsInstagram, BsFacebook } from "react-icons/bs";
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiMaterialui, SiGit, SiGithub } from "react-icons/si";
+import {
+	SiHtml5,
+	SiCss3,
+	SiJavascript,
+	SiReact,
+	SiNextdotjs,
+	SiTypescript,
+	SiNodedotjs,
+	SiMaterialui,
+	SiGit,
+	SiGithub,
+} from "react-icons/si";
 
 /**
  * Break point
@@ -60,7 +71,7 @@ export const PORTFOLIO_TITLE = "My Portfolio";
 export const PORTFOLIO_CONTENTS = [
 	{
 		title: "Weather forecast chat bot",
-		technical: "Node.js, OpenWeather API, LINE API",
+		technical: "Node.js, Express.js, OpenWeather API, LINE API",
 		description:
 			"This chat bot will reply with the 4-day weather forecast for the city posted by the user. Weather forecast data is obtained from the OpenWeather API.",
 		button: "See GitHub",
@@ -78,12 +89,20 @@ export const PORTFOLIO_CONTENTS = [
 	},
 	{
 		title: "Cafe Drink Customizer",
-		technical: "Next.js, SCSS, Firebase",
+		technical: "Next.js, TypeScript, SCSS, Firebase",
 		description:
 			"This web app generates personalized drink menus for indecisive customers. It offers custom options for those who don't know what to order, making the decision-making process easier.",
 		button: "See GitHub",
 		url: "https://github.com/HidemichiShimura/cafe-drink-customizer",
 		video: "/assets/cafe-drink-customizer.gif",
+	},
+	{
+		title: "Login authentication system",
+		technical: "Node.js, Passport.js, Express.js, EJS, Tailwind, MongoDB",
+		description: "This is a login authentication system. You can log in with your email address, Google, Github, or Twitter.",
+		button: "See GitHub",
+		url: "https://github.com/yuya-minamide/login-signup",
+		video: "/assets/login-system.gif",
 	},
 ];
 
@@ -111,6 +130,10 @@ export const SKILL_DETAILES = {
 	next: {
 		icon: <SiNextdotjs />,
 		name: "Next",
+	},
+	typescript: {
+		icon: <SiTypescript />,
+		name: "TS",
 	},
 	node: {
 		icon: <SiNodedotjs />,
