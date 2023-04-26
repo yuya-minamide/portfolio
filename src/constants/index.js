@@ -104,6 +104,14 @@ export const PORTFOLIO_CONTENTS = [
 		url: "https://github.com/yuya-minamide/login-signup",
 		video: "/assets/login-system.gif",
 	},
+	{
+		title: "Netflix clone app",
+		technical: "Next.js, TypeScript, Recoil, Tailwind, MUI, Firebase",
+		description: "This is a Netflix clone app that uses the TMDB API, allowing you to sign up and watch a wide range of movie content.",
+		button: "See GitHub",
+		url: "https://github.com/yuya-minamide/netflix-clone-app",
+		video: "/assets/netflix-clone.gif",
+	},
 ];
 
 /**
