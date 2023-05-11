@@ -112,6 +112,15 @@ export const PORTFOLIO_CONTENTS = [
 		url: "https://github.com/yuya-minamide/netflix-clone-app",
 		video: "/assets/netflix-clone.gif",
 	},
+	{
+		title: "Food delivery app",
+		technical: "Next.js, Node.js, Express.js, Redux-toolkit, Styled-component, MongoDB",
+		description:
+			"This app helps surfers and others find affordable, tasty food on the beach, even in rural areas without delivery services. Restaurant owners can also sell their products through the app.",
+		button: "See GitHub",
+		url: "https://github.com/yuya-minamide/food-delivery-app",
+		video: "/assets/food-delivery.gif",
+	},
 ];
 
 /**
