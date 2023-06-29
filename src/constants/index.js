@@ -70,22 +70,37 @@ export const INTRODUCTION =
 export const PORTFOLIO_TITLE = "My Portfolio";
 export const PORTFOLIO_CONTENTS = [
 	{
-		title: "Weather forecast chat bot",
-		technical: "Node.js, Express.js, OpenWeather API, LINE API",
-		description:
-			"This chat bot will reply with the 4-day weather forecast for the city posted by the user. Weather forecast data is obtained from the OpenWeather API.",
+		title: "Vocabulary muster app",
+		technical: "React.js, Node.js, Express.js, Redux-toolkit, Styled-component, MongoDB",
+		description: "This app will help you memorize your new vocabulary. It has been created using React.js and Node.js.",
 		button: "See GitHub",
-		url: "https://github.com/yuya-minamide/weather-forecast-bot",
-		video: "/assets/demonstration.gif",
+		url: "https://github.com/yuya-minamide/vocabulary-note",
+		video: "/assets/vocabulary-note.gif",
 	},
 	{
-		title: "Portfolio Site",
-		technical: "Next.js, Styled-component",
+		title: "Food delivery app",
+		technical: "Next.js, Node.js, Express.js, Redux-toolkit, Styled-component, MongoDB",
 		description:
-			"My portfolio site showcases my projects and skills using Next.js for server-side rendering and Styled Components for easy and reusable styling.",
+			"This app helps surfers and others find affordable, tasty food on the beach, even in rural areas without delivery services. Restaurant owners can also sell their products through the app.",
 		button: "See GitHub",
-		url: "https://github.com/yuya-minamide/portfolio",
-		video: "/assets/portfolio-site.gif",
+		url: "https://github.com/yuya-minamide/food-delivery-app",
+		video: "/assets/food-delivery.gif",
+	},
+	{
+		title: "Netflix clone app",
+		technical: "Next.js, TypeScript, Recoil, Tailwind, MUI, Firebase",
+		description: "This is a Netflix clone app that uses the TMDB API, allowing you to sign up and watch a wide range of movie content.",
+		button: "See GitHub",
+		url: "https://github.com/yuya-minamide/netflix-clone-app",
+		video: "/assets/netflix-clone.gif",
+	},
+	{
+		title: "Login authentication system",
+		technical: "Node.js, Passport.js, Express.js, EJS, Tailwind, MongoDB",
+		description: "This is a login authentication system. You can log in with your email address, Google, Github, or Twitter.",
+		button: "See GitHub",
+		url: "https://github.com/yuya-minamide/login-signup",
+		video: "/assets/login-system.gif",
 	},
 	{
 		title: "Cafe Drink Customizer",
@@ -97,29 +112,22 @@ export const PORTFOLIO_CONTENTS = [
 		video: "/assets/cafe-drink-customizer.gif",
 	},
 	{
-		title: "Login authentication system",
-		technical: "Node.js, Passport.js, Express.js, EJS, Tailwind, MongoDB",
-		description: "This is a login authentication system. You can log in with your email address, Google, Github, or Twitter.",
-		button: "See GitHub",
-		url: "https://github.com/yuya-minamide/login-signup",
-		video: "/assets/login-system.gif",
-	},
-	{
-		title: "Netflix clone app",
-		technical: "Next.js, TypeScript, Recoil, Tailwind, MUI, Firebase",
-		description: "This is a Netflix clone app that uses the TMDB API, allowing you to sign up and watch a wide range of movie content.",
-		button: "See GitHub",
-		url: "https://github.com/yuya-minamide/netflix-clone-app",
-		video: "/assets/netflix-clone.gif",
-	},
-	{
-		title: "Food delivery app",
-		technical: "Next.js, Node.js, Express.js, Redux-toolkit, Styled-component, MongoDB",
+		title: "Portfolio Site",
+		technical: "Next.js, Styled-component",
 		description:
-			"This app helps surfers and others find affordable, tasty food on the beach, even in rural areas without delivery services. Restaurant owners can also sell their products through the app.",
+			"My portfolio site showcases my projects and skills using Next.js for server-side rendering and Styled Components for easy and reusable styling.",
 		button: "See GitHub",
-		url: "https://github.com/yuya-minamide/food-delivery-app",
-		video: "/assets/food-delivery.gif",
+		url: "https://github.com/yuya-minamide/portfolio",
+		video: "/assets/portfolio-site.gif",
+	},
+	{
+		title: "Weather forecast chat bot",
+		technical: "Node.js, Express.js, OpenWeather API, LINE API",
+		description:
+			"This chat bot will reply with the 4-day weather forecast for the city posted by the user. Weather forecast data is obtained from the OpenWeather API.",
+		button: "See GitHub",
+		url: "https://github.com/yuya-minamide/weather-forecast-bot",
+		video: "/assets/demonstration.gif",
 	},
 ];
 
