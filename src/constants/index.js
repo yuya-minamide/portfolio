@@ -88,8 +88,9 @@ export const PORTFOLIO_CONTENTS = [
 	},
 	{
 		title: "Netflix clone app",
-		technical: "Next.js, TypeScript, Recoil, Tailwind, MUI, Firebase",
-		description: "This is a Netflix clone app that uses the TMDB API, allowing you to sign up and watch a wide range of movie content.",
+		technical: "Next.js, TypeScript, Recoil, Tailwind, MUI, Firebase, Stripe",
+		description:
+			"This is a Netflix clone app that uses the TMDB API, allowing you to sign up, subscribe, and access a diverse selection of movie trailers. Additionally, users have the option to add movies tp their own movie lists.",
 		button: "See GitHub",
 		url: "https://github.com/yuya-minamide/netflix-clone-app",
 		video: "/assets/netflix-clone.gif",
