@@ -10,10 +10,15 @@ import {
 } from "@/constants";
 import { Greeting, HomeContainer, ShortIntroduction, TabletIndention, Title } from "./Home.styles";
 import { CommonButton } from "../../index";
+import { useInView } from "react-intersection-observer";
 
 export function Home() {
+	const [ref, inView] = useInView({
+		triggerOnce: true,
+	});
+
 	return (
-		<HomeContainer id="home">
+		<HomeContainer id="home" inView={inView} ref={ref}>
 			<Greeting>{GREETING}</Greeting>
 			<Title>
 				{MY_NAME}

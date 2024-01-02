@@ -1,5 +1,14 @@
 import { SMARTPHONE, TABLET } from "@/constants";
-import styled from "styled-components";
+import styled, { css, keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
 
 export const TabletIndention = styled.br`
 	display: none;
@@ -10,6 +19,12 @@ export const TabletIndention = styled.br`
 
 export const HomeContainer = styled.section`
 	padding-top: 20%;
+	animation: ${({ inView }) =>
+		inView
+			? css`
+					${fadeIn} 5000ms ease
+			  `
+			: "none"};
 
 	@media screen and (max-width: ${TABLET}) {
 		padding-top: 30%;

@@ -4,8 +4,12 @@ import emailjs from "emailjs-com";
 import { Title } from "../../index";
 import { IconContext } from "react-icons";
 import { useRef } from "react";
+import { useInView } from "react-intersection-observer";
 
 export function Contact() {
+	const [ref, inView] = useInView({
+		triggerOnce: true,
+	});
 	const form = useRef();
 
 	const sendEmail = (e) => {
@@ -20,7 +24,7 @@ export function Contact() {
 	};
 
 	return (
-		<ContactContainer id="contact">
+		<ContactContainer id="contact" inView={inView} ref={ref}>
 			<Title content={CONTACT_TITLE} />
 			<ContactSocialContainer>
 				{Object.values(CONTACT_SOCIALS).map((contact, index) => (
