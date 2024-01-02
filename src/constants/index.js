@@ -10,6 +10,13 @@ import {
 	SiMaterialui,
 	SiGit,
 	SiGithub,
+	SiMongodb,
+	SiMysql,
+	SiFirebase,
+	SiSupabase,
+	SiStyledcomponents,
+	SiAmazonaws,
+	SiFigma,
 } from "react-icons/si";
 
 /**
@@ -168,6 +175,34 @@ export const SKILL_DETAILES = {
 	materialui: {
 		icon: <SiMaterialui />,
 		name: "MUI",
+	},
+	styledComponent: {
+		icon: <SiStyledcomponents />,
+		name: "SC",
+	},
+	supabase: {
+		icon: <SiSupabase />,
+		name: "Supabase",
+	},
+	mysql: {
+		icon: <SiMysql />,
+		name: "MySQL",
+	},
+	mongodb: {
+		icon: <SiMongodb />,
+		name: "MongoDB",
+	},
+	firebase: {
+		icon: <SiFirebase />,
+		name: "Firebase",
+	},
+	aws: {
+		icon: <SiAmazonaws />,
+		name: "AWS",
+	},
+	figma: {
+		icon: <SiFigma />,
+		name: "Figma",
 	},
 	git: {
 		icon: <SiGit />,
