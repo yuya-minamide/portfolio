@@ -4,17 +4,16 @@ import styled from "styled-components";
 export const BurgerMenuContainer = styled.div`
 	@media screen and (max-width: ${TABLET}) {
 		height: 100%;
-		width: 3rem;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		justify-content: space-between;
 		cursor: pointer;
-		padding: 1rem;
+		padding: 1.2rem;
 
 		div {
-			width: 3.5rem;
-			height: 0.5rem;
+			width: 3rem;
+			height: 0.1rem;
 			background-color: #fff;
 			opacity: 0.6;
 			border-radius: 0.3rem;
